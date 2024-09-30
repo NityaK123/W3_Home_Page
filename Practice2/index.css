@@ -1,0 +1,50 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#maze {
+    display:grid;
+    grid-column-gap: 0; /* No column gap */
+    grid-row-gap: 0;    /* No row gap */
+    margin:auto;
+    width:40px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #999;
+    margin:0;
+    padding: 0;
+}
+
+.wall {
+    background-color: black;
+}
+
+.path {
+    background-color: lightgreen;
+}
+
+.start {
+    background-color: blue;
+}
+
+.end {
+    background-color: red;
+}
+
+#controls {
+    margin-bottom: 30px;
+}
+
+#message{
+    margin-top:40px;
+}
+
