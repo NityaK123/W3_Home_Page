@@ -32,8 +32,7 @@
                 cellElement.className = 'cell' + (cell === 1 ? ' wall' : '') +
                     (r === ratPosition[0] && c === ratPosition[1] ? ' start' : '') +
                     (r === destination[0] && c === destination[1] ? ' end' : '');
-                mazeElement.appendChild(cellElement);
-                
+                mazeElement.appendChild(cellElement);              
             });
         });
     };

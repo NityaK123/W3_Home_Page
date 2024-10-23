@@ -28,5 +28,4 @@ function Click(){
 
 const btn = document.getElementById('button')
 console.log(btn)
-btn.addEventListener('click',Click)
-
+btn.addEventListener('click',Click) 

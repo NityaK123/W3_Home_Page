@@ -3,7 +3,6 @@ const chnageColor = document.getElementById('colorChange')
 
 let timer;
 
-
 function ChangeColor(){
     let x=2
     timer = setInterval(()=>{
