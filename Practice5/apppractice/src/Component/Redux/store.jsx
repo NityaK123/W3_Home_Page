@@ -7,3 +7,4 @@ const store = createStore(reducers)
 console.log("Stroe",store)
 
 export default store
+
